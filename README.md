@@ -16,7 +16,7 @@ For Chromium based browsers.
 Most Chromium based browsers are restrictive in nature to prevent malicious extensions from being installed. I have not yet tested all browsers to provide instructions for them.
 
 ## Load the Extension
-You can either download a precompiled version from the releases page, or pack it yourself. With either method, you need to enable Developer Mode first from the Extensions page in the browser. EX: `chrome://extensions` or `edge://extensions`.
+You can either download a pre-compiled version from the releases page, or compile it yourself. With either method, you need to enable Developer Mode first from the Extensions page in the browser. EX: `chrome://extensions` or `edge://extensions`.
 
 With a compiled extension, drag and drop it into the Extensions window. The extension will not load. This is expected. To enable it. follow the steps below for the browser you use.
 <!--
@@ -35,12 +35,12 @@ https://support.google.com/chrome/a/answer/187202?hl=en#zippy=%2Cwindows
 6. Open Local Group Policy Editor (gpedit).
 7. Navigate to [Computer Config] > [Administrative Templates] > [Microsoft Edge] > [Extensions] > [Allow specific extensions to be installed].
 8. Click [Enable] and then [Show...]
-9. Copy the extensions ID (EX: abibhdeafodcmlcgiikhmhkiigehlhgh) from the Extensions page and paste it into the box.
+9. Copy the extensions ID (EX: `abibhdeafodcmlcgiikhmhkiigehlhgh`) from the Extensions page and paste it into the box.
 10. Click [OK] and [OK].
 11. Restart Edge.
 12. Disable Developer Mode.
 
-The extension will now load normally. You will may see a prompt the first time asking if this was the new tab you were expecting. If you accept, this warning will go away and the extension will remain enabled.
+The extension will now load normally. You will see a prompt the first time asking if this was the new tab you were expecting. If you accept, this warning will go away and the extension will remain enabled.
 
 # Your Modifications
 Because this extension is open source, you can freely fork and modify the empty page to include what ever you want. For advanced configuration, read the [developer documentation](https://developer.chrome.com/docs/extensions/). Remember, you must pack it and white-list it so the warnings no longer appear.
