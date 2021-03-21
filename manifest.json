@@ -1,0 +1,15 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "blnkNTP.html"
+   },
+   "description": "New tab pages are blank (empty). Supports Dark and Light modes.",
+   "icons": {
+      "32": "icons/Artboard_32.png",
+      "64": "icons/Artboard_64.png",
+      "128": "icons/Artboard_128.png",
+      "256": "icons/Artboard_256.png"
+   },
+   "manifest_version": 2,
+   "name": "Blank New Tab",
+   "version": "1.0.0"
+}
