@@ -23,6 +23,8 @@ Some browsers do not like this. Vivaldi does not constantly nag you about an unp
 - https://support.google.com/chrome/a/answer/187202?hl=en#zippy=%2Cwindows
 - https://www.microsoft.com/en-us/edge/business/download
 
+Configure the policy for whitelisting extensions based on ID.
+
 The extension will now load normally. You will see a prompt the first time asking if this was the new tab you were expecting. If you accept, this warning will go away and the extension will remain enabled.
 
 # Your Modifications
